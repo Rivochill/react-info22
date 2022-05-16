@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Noticia from './components/Noticias';
+import nuevaNoticia from './components/nuevaNoticia';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Noticia></Noticia>
+      <nuevaNoticia></nuevaNoticia>
     </div>
   );
 }
